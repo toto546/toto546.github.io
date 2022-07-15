@@ -27,10 +27,10 @@ buttons.forEach(function(btn){
 
 function valueColor(){
     if(count>0){
-        value.style.color = '#FFEA00';
+        value.style.color = '#000000';
     }
     else if(count==0){
-        value.style.color = '#fff';
+        value.style.color = '#000000';
     }
     else{
         value.style.color = '#231f20';
@@ -56,10 +56,10 @@ buttonnew.forEach(function(boton){
 
 function valueColor1(){
     if(count1>0){
-        nuevo.style.color = '#008000';
+        nuevo.style.color = '#ffc95c';
     }
     else if(count1==0){
-        nuevo.style.color = '#fff';
+        nuevo.style.color = '#ffc95c';
     }
     else{
         nuevo.style.color = '#231f20';

@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 :root{
-  --main-bg:#fff3f5;
+  --main-bg:#fff;
   --arrow-color:#ffbac1;
   --number-bg:#ff4957;
   --white:#fff;
@@ -13,12 +13,21 @@
   --reset-hover:#231f20b6;
 }
 body {
-  min-height: 100vh;
+  width: 100%;
   background: var(--main-bg);
   font-family: "Roboto", sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
 }
 .counter {
   display: flex;
@@ -27,6 +36,7 @@ body {
   flex-direction: column;
   gap: 1rem;
   margin-bottom: 2rem;
+  width: 50%
 }
 .arrow {
   color: var(--arrow-color);
@@ -55,16 +65,16 @@ body {
   }
 }
 .value {
-  color: var(--white);
-  background: var(--number-bg);
-  font-size: 5rem;
+  color: black;
+  background: #ffc95c;
+  font-size: 20rem;
   font-weight: 500;
   padding: 1.5rem 2rem;
   border-radius: 1rem;
   box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
 }
 .reset {
-  width: 100%;
+  width: 50%;
   color: var(--white);
   background: var(--reset-bg);
   font-size: 1.2rem;
@@ -88,11 +98,28 @@ body {
 }
 
 .value1 {
-  color: var(--white);
-  background: var(--number-bg);
-  font-size: 5rem;
+  color: #ffc95c;
+  background: black;
+  font-size: 20rem;
   font-weight: 500;
   padding: 1.5rem 2rem;
   border-radius: 1rem;
   box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+
+}
+
+.two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  
 }
